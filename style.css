@@ -1,0 +1,79 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+    background-image: url(/profile/images/space.gif);
+    text-align: center;
+    color: #c77811;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    font-weight: lighter;
+  }
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  h1 {
+    color: #1b1b1b;
+    font-size: 32px;
+    font-weight: 900;
+  }
+  h2 {
+    color: #7ECE90;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #6B72E1;
+    font-weight: 600;
+    font-size: 32px;
+  }
+  a:hover {
+    color: rgb(212, 202, 202);
+  }
+
+  li {
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+  }
+
+  .profil-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    box-shadow: 2px 2px 3px white;
+    object-fit: cover;
+  }
+
+  .btn {
+    background-color: #a18841f6;
+    color: white;
+    font-size: smaller;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: rgb(34, 32, 32);
+}
+
+.btn:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.card-white {
+  background-color: rgb(250, 208, 153);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 150px 150px;
+  text-align: center;
+}
